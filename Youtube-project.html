@@ -5,36 +5,45 @@
   <!--Calling icons library-->
   <script src="https://kit.fontawesome.com/0007bfca3c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Adding tab title-->
   <title>Youtube</title>
 </head>
 
 <body>
-  <nav id="navbar">
+  <nav id="navbar" class="navstyle">
     <!--<div id="container" class="navstyle">-->
-      <!--Menu and youtube icon-->
+      <!--Left container-->
       <div id="left" class="navstyle">
-        <div id="menu" class="navstyle">
-      <i class="fas fa-bars"></i>
-        </div>
-        <div id="logo" class="navstyle">
-        <i class="fab fa-youtube fa-2x"></i>
-        <div id="youtube" class="navstyle">Youtube</div>
-        </div>
-      </div>  
-      <div id="center" class="navstyle">
-        <div class="navstyle">
-          <input id="searchbox" type="search" class="navstyle">
-          <button id="searchbutton" class="navstyle">
-            <i class="fas fa-search fa-2x"></i>
+        <div id="menucont" class="navstyle">
+          <button id="menu">
+            <div class="menu-bars"></div>
+            <div class="menu-bars"></div>
+            <div class="menu-bars"></div>
           </button>
         </div>
+        <div id="logo" class="navstyle">
+          <i class="fab fa-youtube fa-2x"></i>
+          <div id="youtube" class="navstyle">YouTube</div>
+        </div>    
+      </div>  
+      <!--Center container-->
+      <div id="center" class="navstyle">
+        <div id="searchcont" class="navstyle">
+          <input id="searchbox" type="search" placeholder="  Search">
+          <button id="searchbutton">
+            <i class="fas fa-search"></i>
+          </button>
+        </div> 
       </div>
+      <!--Right container-->
       <div id="right" class="navstyle">
-        <i class="fas fa-video fa-2x"></i>
-        <i class="fas fa-th fa-2x"></i>
-        <i class="fas fa-bell fa-2x"></i>
-        <img id="userimg" src="./userimg.jpeg" class="navstyle">
+        <div id="icons" class="navstyle">
+          <i class="large material-icons navstyle">video_call</i>
+          <i class="fas fa-th navstyle"></i>
+          <i class="fas fa-bell navstyle"></i>
+          <img id="userimg" src="./userimg.jpeg" class="navstyle">
+        </div>               
       </div>
     <!--</div>-->
   </nav>
