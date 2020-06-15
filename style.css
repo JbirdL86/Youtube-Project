@@ -3,12 +3,13 @@
 	
     #navbar {
 	  top:0;
-	  width:100%
-	  position: fixed;
+	  position:fixed;
+	  width: 100%;
 	  height: 56px;
 	  padding: 0 16px 0 16px;
+	  justify-content: space-between;
 	  align-items: center;
-	  justify-content: justify-content;
+	  background-color: white;
     }
 
     .navstyle {
@@ -60,7 +61,7 @@
 	  font-size:  28px;
 	  font-family: Arial;
 	  margin-left: 2px;
-	  letter-spacing: -1px;
+	  letter-spacing: -5px;
 	}
 
 	
@@ -80,6 +81,7 @@
  	  background-color: transparent;
 	  border-style: solid;
 	  border-width: 1px;
+	  position: relative;
 	}
 	
 	#searchbox{
@@ -108,18 +110,29 @@
 	 #right{
 	  height: 36px;
 	  min-width: 225px;
+	  align-items: center;
+	  margin-right: 30px;
     }
 	
 	#icons{
-	width: 25%;
+      justify-content: space-between;
+	  width: 90%;
 	}
 	
 	#userimg{
-	  width: 40px;
-	  height: 40px;
+	  width: 36px;
+	  height: 36px;
 	  border-radius: 50%;
 	  margin-top: auto;
 	  margin-bottom:auto;
+	}
+
+	/*Styling the main block*/
+	body {
+	  margin:0;
+	  background-color: #f9f9f9;
+	  width: 100%;
+	  height: 1000px;
 	}
 
 
