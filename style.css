@@ -127,12 +127,280 @@
 	  margin-bottom:auto;
 	}
 
-	/*Styling the main block*/
+	/*Styling the main content (columns)*/
+	#columns{
+	  width: 100%;
+	  margin-top: 56px;
+	  display: flex;
+	  flex-direction: row;	
+	  justify-content: center;
+	}
+
+	/*Styling the user-column*/
+	#user-column{
+	  display: flex;
+	  flex-direction: column;	
+	  width: 666.667px;
+	  height: 100%;  
+	}
+
+	/*Styling player division*/
+	#player{
+	  margin-top: 24px;
+	  margin-left: 24px;
+	  margin-right: 24px; 
+	  display: inline-block;
+	  width: 618.667px;
+	  height: 386.667px;
+	}
+
+	/*Styling info division*/
+	#info{
+	  display: inline-block;
+	  margin-left: 24px;
+	  margin-right: 24px;
+	  padding-bottom: 13px;
+	  width: 618.667px;
+	}
+
+	/*Styling info-icons*/
+	#info-icons{
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
+	  justify-content: space-between;
+	}
+
+	/*Styling icons-left*/
+	#icons-left{
+	  
+	}
+
+	#icons-right{
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-between;
+	  width: 65%;
+      margin-right: 5px;
+	}
+	/*Text style*/
+	.text-style{
+	  font-family: Arial;
+	}
+	/*Styling the video title*/
+	#video-title{
+	  font-size: 1.5em; 
+	  font-weight: lighter;
+	}
+	/*Making the info division icons look gray*/
+	#info i{
+	  color: gray;
+	}
+
+	/*Giving a more specific gray to the add list icon in the info division*/
+	.add-list-color{
+		color: #d1cccc !important; 
+	} 
+
+	/*Styling description division*/
+	#video-description{
+	  display: flex;
+	  flex-direction: column;
+	  margin-left: 24px;
+	  margin-right: 24px;
+	  /*width: 618.667px;
+	  height: 600px;*/
+	  border-top-style: solid;
+	  border-top-width: 1px;
+	  border-top-color: black;
+	}
+
+	/*Styling channel information container*/
+	#channel-container{
+		display: flex;
+		background-color: transparent;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		align-items: center;
+		justify-content: space-between;
+	  
+	}
+
+	/*Styling owner profile container*/
+	#owner-profile{
+	  display: flex;
+	  flex-direction: row;
+	  background-color: transparent;
+	  align-items: center;
+	}
+
+	#owner-info{
+	  display:flex;
+	  flex-direction: column;
+	  background-color: transparent;
+	  margin-left: 8px;
+	}
+
+	/*Styling the name of the video owner*/
+	#owner-name{
+	  font-family: Arial;
+	  font-weight: bold;
+	  font-size: 19px;
+	}
+
+	/*Styling the number of subscribers text*/
+	#num-subscribers{
+	  font-family: Arial;
+	  font-weight: 300;
+	  font-size: 15px;
+	  color: rgb(59, 59, 59);
+	}
+
+    /*Styling the subscribe button*/
+	#subscribe-container{
+		display: block;
+	  width: 170px;
+	  height: 50px;
+	  background-color: red;
+	  padding: 25px 10px 5px 40px;
+	  }
+	  
+		  
+	  #subscribe-text{
+		font-family: arial;
+		font-size: 25px;
+		font-weight: 400;
+		color: white;
+		width: 160px;
+		height: 40px;
+	  }
+
+	/*Styling description text*/
+	#description-text{
+	  margin-left: 70px;
+	  font-size: 18px;
+	}
+
+	/*Styling show less*/
+	#show-less{
+	  display: inline-block;
+	  font-size: 1rem;
+	  font-weight: 700;
+	  letter-spacing: 0.007px;
+	  text-transform: uppercase;
+	  color: dimgray;
+	  margin-left: 70px;
+	  margin-bottom: 8px;
+	}
+
+
+	/*Styling comments division*/
+	#comments{
+      display: inline-block;
+	  margin-left: 24px;
+	  margin-right: 24px;
+	  width: 618.667px;
+	  height: 100%;
+	  border-top-style: solid;
+	  border-top-width: 1px;
+	  border-top-color: black;
+	}
+	
+	/*///////////////STYLING THE COMMENT CONTAINERS////////////*/
+	.user-container{
+	  display: flex;
+	  flex-direction: row;
+	  margin-top: 20px;
+	}
+
+	/*Styling user images of the comment division*/
+    .user-img-background{
+		display: inline-flex;
+		width: 62px;
+		height: 62px;
+		align-items: center;
+		justify-content: center;
+		border-radius: 100%;
+	  }
+    /*user colors*/
+	  #color-a{
+		background-color: red;
+		}
+			  
+	  .user-text{
+		font-family: arial;
+		font-size: 25px;
+		font-weight: 400;
+		color: white;
+		}
+
+	.comments-container{
+	  display: flex;
+	  flex-direction: column;
+	  margin-left: 8px;
+	}
+	.name-and-time{
+	  display: inline-flex;
+	  align-items: center;
+	  padding-bottom: 12px;
+	}
+
+	.comment-icons{
+	  display: inline-flex;
+	  width: 150px;
+	  height: 19px;
+	  align-items: center;
+	  justify-content: space-between;
+	}
+
+	.user-name{
+	  font-family: Arial;
+	  font-size: 14px;
+	  font-weight: 700;
+	}
+
+	.time{
+	  font-family: Arial;
+	  font-size: 12px;
+	  font-weight: 600;
+	  margin-left: 8px;
+	  color: dimgray;
+	}
+
+	.comment{
+	  font-family: Arial;
+	  font-size: 16px;
+	  margin-block-start: 0;
+	}
+	
+	.comment-icons i{
+	  color: rgb(59, 59, 59);
+	}
+	.comment-icons-text{
+	  font-family: Arial;
+	  font-size: 16px;
+	  font-weight: 670;
+	  color: rgb(59, 59, 59);
+	}
+
+	#reply{
+	  margin-left: 18px;
+	}
+	
+	/*Styling the List column*/
+	#playlist{
+	  width: 40%;
+	  height: 1000px;
+	  background-color: green;
+	}
+
+	/*Styling the main block (body)*/
 	body {
 	  margin:0;
 	  background-color: #f9f9f9;
 	  width: 100%;
 	  height: 1000px;
 	}
+
 
 
