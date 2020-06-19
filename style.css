@@ -29,6 +29,7 @@
 	  background-color: transparent;
 	  border: none;
 	  height: 29px;
+	  cursor: pointer;
 	}
 	
 	#menucont{
@@ -46,7 +47,7 @@
 	
 	#logo{
 	  margin-left: 5px;
-	  
+	  cursor: pointer;
 	}
 	
 	
@@ -119,6 +120,10 @@
 	  width: 90%;
 	}
 	
+	#icons i,img{
+		cursor: pointer;
+	}
+
 	#userimg{
 	  width: 36px;
 	  height: 36px;
@@ -128,39 +133,54 @@
 	}
 
 	/*Styling the main content (columns)*/
+	#main{
+		margin-top: 56px;
+	}
+
 	#columns{
 	  width: 100%;
-	  margin-top: 56px;
+	  margin: 0 auto;
 	  display: flex;
-	  flex-direction: row;	
-	  justify-content: center;
+	  flex-direction: row;
+	  max-width: 1754px;
 	}
 
-	/*Styling the user-column*/
-	#user-column{
-	  display: flex;
-	  flex-direction: column;	
-	  width: 666.667px;
-	  height: 100%;  
+	/*Styling the user-column*/	
+	#user-column {
+		display: flex;
+		flex-direction: column;
+		width: 100%; 
+		height: 100%;
+		min-width: 450px;
+		max-width: 1280px;
+		padding-top: 24px;
+		padding-right: 24px;
+		margin-left: 24px;
 	}
-
 	/*Styling player division*/
+	#video-player{
+		min-height: 240px;
+		min-width: 426px;
+		max-height: 720px;
+		max-width: 1280px;
+		width: 100%;
+		height: 100%;
+	}
+
 	#player{
-	  margin-top: 24px;
-	  margin-left: 24px;
-	  margin-right: 24px; 
 	  display: inline-block;
-	  width: 618.667px;
-	  height: 386.667px;
+	  width: 100%;
+	  height: 100%;
+	  min-height: 240px;
+	  min-width: 426px;
+	  max-width: 1280px;
+	  max-height: 720px;
 	}
 
 	/*Styling info division*/
 	#info{
-	  display: inline-block;
-	  margin-left: 24px;
-	  margin-right: 24px;
 	  padding-bottom: 13px;
-	  width: 618.667px;
+	  width: 100%;
 	}
 
 	/*Styling info-icons*/
@@ -169,6 +189,7 @@
 	  flex-direction: row;
 	  align-items: center;
 	  justify-content: space-between;
+	  height: 40px;
 	}
 
 	/*Styling icons-left*/
@@ -177,15 +198,43 @@
 	}
 
 	#icons-right{
+	  position: relative;
+	  top: 4px;
 	  display: flex;
 	  align-items: center;
 	  justify-content: space-between;
-	  width: 65%;
-      margin-right: 5px;
 	}
+
+	#icons-right i{
+		cursor: pointer;
+	}
+
+	.button-container{
+		padding-right: 8px;
+		margin-left: 8px;
+	}
+
+	#dot-icon {
+		outline: none;
+		background: none;
+		border: none;
+		line-height: 0;
+		cursor: pointer;
+	}
+
 	/*Text style*/
 	.text-style{
 	  font-family: Arial;
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
+	  justify-content: space-between;
+	}
+
+	.user-style{
+		width: 20px;
+		height: 20px;
+		padding: 8px;
 	}
 	/*Styling the video title*/
 	#video-title{
@@ -206,10 +255,6 @@
 	#video-description{
 	  display: flex;
 	  flex-direction: column;
-	  margin-left: 24px;
-	  margin-right: 24px;
-	  /*width: 618.667px;
-	  height: 600px;*/
 	  border-top-style: solid;
 	  border-top-width: 1px;
 	  border-top-color: black;
@@ -316,8 +361,8 @@
 	/*Styling user images of the comment division*/
     .user-img-background{
 		display: inline-flex;
-		width: 62px;
-		height: 62px;
+		width: 40px;
+		height: 40px;
 		align-items: center;
 		justify-content: center;
 		border-radius: 100%;
@@ -389,9 +434,13 @@
 	
 	/*Styling the List column*/
 	#playlist{
-	  width: 40%;
+	  width: 25%;
 	  height: 1000px;
 	  background-color: green;
+	  padding-top: 24px;
+	  padding-right: 24px;
+	  min-width: 426px;
+	  max-width: 226px;
 	}
 
 	/*Styling the main block (body)*/
