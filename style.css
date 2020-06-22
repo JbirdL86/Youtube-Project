@@ -429,13 +429,105 @@
 	#playlist{
 	  width: 25%;
 	  height: 1000px;
-	  background-color: green;
+	  /*background-color: green;*/
 	  padding-top: 24px;
 	  padding-right: 24px;
 	  min-width: 426px;
 	  max-width: 226px;
 	}
 
+	/*/////////////////Styling the List column////////////////////*/
+	#playlist{
+		width: 25%;
+		height: 100%;
+		/*background-color: green;*/
+		padding-top: 24px;
+		padding-right: 24px;
+		min-width: 426px;
+		max-width: 226px;
+	}
+  
+   /*/////Styling the comming up video/////*/
+	#coming-next-video-container{
+      display: flex;
+	  width: 394px;
+	  height: 94px;
+	 /* background-color: cornflowerblue;*/ 
+	  padding-bottom: 14px;
+	  margin-bottom: 14px;
+	  border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: black;
+    }
+  
+	  #next-video-img{
+		width: 168px; 
+		height: 94px;
+	  }
+  
+	  /*Styling description container of the coming next video*/
+	  #thumb-description-container{
+		display: inline-flex;
+		flex-direction: column;
+		width: 226px;
+		height: 94px;
+		/*background-color: aliceblue;*/  
+		padding-left: 8px;
+	  }
+	  
+	  #next-vid-title{
+		font-family: Arial;
+		font-weight: 600;
+		font-size: small;
+		margin-bottom: 6px;
+	  }
+  
+	  .thumbnails-text-style {
+		font-family: Arial;
+		font-size: 12.6px;
+		font-weight: 545;
+		margin-bottom: 4px;
+		color: rgb(96, 96, 96);
+	  }
+
+	/*Styling thumbnails list*/
+	.thumbnail-container{
+		display: flex;
+		width: 394px;
+		height: 94px;
+		/*background-color: #d1cccc;*/ 
+		margin-bottom: 6px;
+	
+	  }
+	
+	.thumb-video-img{
+	  width: 168px; 
+	  height: 94px;
+	}
+
+	.thumb-description-container{
+		display: inline-flex;
+		flex-direction: column;
+		width: 226px;
+		height: 94px;
+		/*background-color: aliceblue; */ 
+		padding-left: 8px;
+	  }
+	  
+	  .thumb-vid-title{
+		font-family: Arial;
+		font-weight: 600;
+		font-size: small;
+		margin-bottom: 6px;
+	  }
+  
+	  .thumbnails-text-style {
+		font-family: Arial;
+		font-size: 12.6px;
+		font-weight: 545;
+		margin-bottom: 4px;
+		color: rgb(96, 96, 96);
+	  }
 	/*Styling the main block (body)*/
 	body {
 	  margin:0;
