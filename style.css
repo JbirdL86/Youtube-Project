@@ -10,6 +10,7 @@
 	  justify-content: space-between;
 	  align-items: center;
 	  background-color: white;
+	  z-index: 5;
     }
 
     .navstyle {
@@ -49,8 +50,7 @@
 	  margin-left: 5px;
 	  cursor: pointer;
 	}
-	
-	
+		
 	#logo .fa-youtube{
 	  height: 36px;
 	  width: 36px;
@@ -64,10 +64,8 @@
 	  margin-left: 2px;
 	  letter-spacing: -5px;
 	}
-
 	
 	/*Styling center of navigation bar*/
-	
     #center{
 	  height: 36px;
 	  padding: 0;
@@ -104,7 +102,6 @@
 	  background-color: #f8f8f8;
 	  border: 0;
 	}
-	
 	
 	/*Styling the right side of the navbar*/
 	
@@ -157,24 +154,23 @@
 		padding-right: 24px;
 		margin-left: 24px;
 	}
+
 	/*Styling player division*/
-	#video-player{
-		min-height: 240px;
-		min-width: 426px;
-		max-height: 720px;
-		max-width: 1280px;
+	#player{
+		position: relative;
+		overflow: hidden;
 		width: 100%;
-		height: 100%;
+		padding-bottom: 56.25%;
 	}
 
-	#player{
-	  display: inline-block;
-	  width: 100%;
-	  height: 100%;
-	  min-height: 240px;
-	  min-width: 426px;
-	  max-width: 1280px;
-	  max-height: 720px;
+	#video-player{
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
 	}
 
 	/*Styling info division*/
@@ -193,10 +189,6 @@
 	}
 
 	/*Styling icons-left*/
-	#icons-left{
-	  
-	}
-
 	#icons-right{
 	  position: relative;
 	  top: 4px;
@@ -236,11 +228,13 @@
 		height: 20px;
 		padding: 8px;
 	}
+
 	/*Styling the video title*/
 	#video-title{
 	  font-size: 1.5em; 
 	  font-weight: lighter;
 	}
+
 	/*Making the info division icons look gray*/
 	#info i{
 	  color: gray;
@@ -303,27 +297,24 @@
 
     /*Styling the subscribe button*/
 	#subscribe-container{
-		display: block;
-	  width: 170px;
-	  height: 50px;
-	  background-color: red;
-	  padding: 25px 10px 5px 40px;
-	  }
+	  display: flex;
+	  background-color: #c00;
+    }
 	  
 		  
-	  #subscribe-text{
-		font-family: arial;
-		font-size: 25px;
-		font-weight: 400;
-		color: white;
-		width: 160px;
-		height: 40px;
-	  }
+	#subscribe-text{
+	  font-family: Arial;
+	  font-size: 15px;
+	  font-weight: 550;
+	  color: white;
+	  margin: 10px 14px 10px 14px;	
+	}
 
 	/*Styling description text*/
 	#description-text{
 	  margin-left: 70px;
 	  font-size: 18px;
+	  text-align: justify;
 	}
 
 	/*Styling show less*/
@@ -337,7 +328,6 @@
 	  margin-left: 70px;
 	  margin-bottom: 8px;
 	}
-
 
 	/*Styling comments division*/
 	#comments{
@@ -367,23 +357,25 @@
 		justify-content: center;
 		border-radius: 100%;
 	  }
+
     /*user colors*/
 	  #color-a{
 		background-color: red;
-		}
+	}
 			  
-	  .user-text{
+	.user-text{
 		font-family: arial;
 		font-size: 25px;
 		font-weight: 400;
 		color: white;
-		}
+	}
 
 	.comments-container{
 	  display: flex;
 	  flex-direction: column;
 	  margin-left: 8px;
 	}
+
 	.name-and-time{
 	  display: inline-flex;
 	  align-items: center;
@@ -421,6 +413,7 @@
 	.comment-icons i{
 	  color: rgb(59, 59, 59);
 	}
+
 	.comment-icons-text{
 	  font-family: Arial;
 	  font-size: 16px;
