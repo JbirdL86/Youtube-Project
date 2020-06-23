@@ -334,8 +334,7 @@
       display: inline-block;
 	  margin-left: 24px;
 	  margin-right: 24px;
-	  width: 618.667px;
-	  height: 100%;
+	  width: 100%;
 	  border-top-style: solid;
 	  border-top-width: 1px;
 	  border-top-color: black;
@@ -374,6 +373,7 @@
 	  display: flex;
 	  flex-direction: column;
 	  margin-left: 8px;
+	  width: 100%;
 	}
 
 	.name-and-time{
@@ -438,15 +438,43 @@
 
 	/*/////////////////Styling the List column////////////////////*/
 	#playlist{
-		width: 25%;
-		height: 100%;
-		/*background-color: green;*/
-		padding-top: 24px;
-		padding-right: 24px;
-		min-width: 426px;
-		max-width: 226px;
+	  width: 25%;
+	  height: 100%;
+	  padding-top: 24px;
+	  padding-right: 24px;
+	  min-width: 426px;
+	  max-width: 226px;
+	}
+   
+	#head{
+	  display: flex;
+	  margin-bottom: 12px;
+	  flex-direction: row;
+	  align-items: center;
 	}
   
+	#upnext{
+	  flex: 1 1 0%;
+	  color:#210303;
+	  font-weight: 500;
+	  font-size: 16px;
+	  line-height: normal;
+	}
+  
+	#autoplay{
+	  color: #210303;
+	  font-size: 0.8rem;
+	  font-weight: 500;
+	  letter-spacing: 0.007px;
+	  text-transform: uppercase;
+	  margin-right: 5px;
+	}
+  
+	#toggleicon{
+      background-color: transparent;
+	  color: #e2e2e2;
+	}
+
    /*/////Styling the comming up video/////*/
 	#coming-next-video-container{
       display: flex;
