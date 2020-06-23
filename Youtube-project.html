@@ -5,6 +5,7 @@
   <!--Calling icons library-->
   <script src="https://kit.fontawesome.com/0007bfca3c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
+<<<<<<< HEAD
   <!-- Adding tab title-->
   <title>Youtube</title>
 </head>
@@ -46,3 +47,449 @@
   <section id="User"></section>  
 </body>
 </html>
+=======
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Adding tab title-->
+  <title>Youtube</title>
+  <!--Calling fonts library-->
+</head>
+
+<body>
+  <nav id="navbar" class="navstyle">
+    <!--<div id="container" class="navstyle">-->
+      <!--Left container-->
+      <div id="left" class="navstyle">
+        <div id="menucont" class="navstyle">
+          <button id="menu">
+            <div class="menu-bars"></div>
+            <div class="menu-bars"></div>
+            <div class="menu-bars"></div>
+          </button>
+        </div>
+        <div id="logo" class="navstyle">
+          <i class="fab fa-youtube fa-2x"></i>
+          <span id="youtube" class="navstyle">YouTube</span>
+        </div>    
+      </div>  
+      <!--Center container-->
+      <div id="center" class="navstyle">
+        <div id="searchcont" class="navstyle">
+          <input id="searchbox" type="search" placeholder="  Search">
+          <button id="searchbutton">
+            <i class="fas fa-search"></i>
+          </button>
+        </div> 
+      </div>
+      <!--Right container-->
+      <div id="right" class="navstyle">
+        <div id="icons" class="navstyle">
+          <i class="large material-icons navstyle">video_call</i>
+          <i class="fas fa-th navstyle"></i>
+          <i class="fas fa-bell navstyle"></i>
+          <img id="userimg" src="./userimg.jpeg" class="navstyle">
+        </div>               
+      </div>
+    <!--</div>-->
+  </nav>
+  <main id="main">
+    <div id="columns">
+      <div id="user-column">
+        <div id="user-container">
+          <!--///////////////////// PLAYER DIV.\\\\\\\\\\\\\\\\\\\\\-->
+          <div id="player">
+            <iframe id="video-player" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <!--///////////////////// INFO DIV.\\\\\\\\\\\\\\\\\\\\\-->
+          <div id="info">
+            <h1 id="video-title" class="text-style">Contributing to Open Source Part I: The Easy Way</h1> <!--youtube video title-->
+            <div id="info-icons">
+              <div id="icons-left">
+                <div class="text-style">57,638 views</div> <!--Number of views-->
+              </div>
+              <div id="icons-right">
+
+                <div  class="text-style button-container">
+                  <a id="like-button" class="text-style">
+                  <div id="iconlike-cont" class="text-style user-style">
+                    <i class="fas fa-thumbs-up"></i> <!--Like button-->
+                  </div>
+                  <div>427</div> <!--Number of likes-->
+                  </a>
+                </div>
+                
+                <div id="like-container" class="text-style button-container">
+                  <a id="dislike-button" class="text-style">
+                  <div id="icondislike-button" class="text-style user-style">
+                    <i class="fas fa-thumbs-down"></i> <!--Dislike button--> 
+                  </div>
+                  <div>18</div> <!--Number of dislikes-->
+                  </a>
+                </div>
+
+                <div class="share-container" class="text-style button-container">
+                  <a id="share-button" class="text-style">
+                  <div id="share" class="text-style user-style">
+                   <i class="fas fa-share"></i>
+                  </div> 
+                  <span>SHARE</span><!--SHARE text-->
+                  </a>
+                </div>
+
+                <div id="save-container" class="text-style button-container">
+                  <a id="save-button" class="text-style">
+                  <div id="save" class="text-style user-style">
+                    <i class="fa fa-bars add-list-color" aria-hidden="true"></i>
+                  </div> 
+                  <span>SAVE</span><!--SAVE text-->
+                  </a>
+                </div>
+
+                <div class="text-style button-container">
+                  <a class="text-style">
+                  <button id="dot-icon" class="text-style user-style"> 
+                    <i class="fas fa-ellipsis-h"></i> <!--Horizontal dots-->
+                  </button>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!--///////////////////// VIDEO DESCRIPTION DIV.\\\\\\\\\\\\\\\\\\\\\-->
+          <div id="video-description">
+            <div id="channel-container">
+              <div id="owner-profile">
+                <i class="far fa-compass fa-4x"></i>
+                <div id="owner-info">
+                  <span id="owner-name">The Odin Project</span>
+                  <span id="num-subscribers">992 subscribers</span>
+                </div>
+              </div>
+              <div id="subscribe-container">
+                <div id="subscribe-text">SUSCRIBE</div>
+              </div>
+            </div>
+            <p id="description-text" class="text-style">How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at <a href="https://theodinproject.com/">http://theodinproject.com</a>.</p>
+            <span id="show-less" class="text-style">show less</span>
+          </div>
+          <!--///////////////////// COMMENTS DIV.\\\\\\\\\\\\\\\\\\\\\-->
+          <div id="comments">
+            <!--This will show up 16 times-->
+            <div class="user-container"> 
+              <div  id="color-a" class="user-img-background"> <!--User A image-->
+                <span class="user-text">A</span>
+              </div>
+              <div class="comments-container"> <!--Comments area-->
+                <div class="name-and-time">    
+                  <span class="user-name">Batman</span> <!--Comment user name-->
+                  <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+                </div>
+                <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+                <div class="comment-icons">   <!--The container of the comment icons-->
+                  <i class="fas fa-thumbs-up"></i>
+                  <span id="comment-likes" class="comment-icons-text">30M</span>
+                  <i class="fas fa-thumbs-down"></i>
+                  <span id="reply" class="comment-icons-text">Reply</span>
+                </div>
+              </div>
+            </div>
+            <!--This will show up 16 times-->
+            <div class="user-container"> 
+              <div  id="color-a" class="user-img-background"> <!--User A image-->
+                <span class="user-text">B</span>
+              </div>
+              <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">C</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">D</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">E</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">F</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">G</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">H</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">I</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">J</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">K</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">L</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">M</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">N</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">O</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+           <!--This will show up 16 times-->
+           <div class="user-container"> 
+            <div  id="color-a" class="user-img-background"> <!--User A image-->
+              <span class="user-text">P</span>
+            </div>
+            <div class="comments-container"> <!--Comments area-->
+              <div class="name-and-time">    
+                <span class="user-name">Batman</span> <!--Comment user name-->
+                <span class="time">2 decades ago</span>  <!--How long ago is this comment here?-->
+              </div>
+              <p class="comment">This is an example of a comment</p>       <!--The comment itself-->
+              <div class="comment-icons">   <!--The container of the comment icons-->
+                <i class="fas fa-thumbs-up"></i>
+                <span id="comment-likes" class="comment-icons-text">30M</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span id="reply" class="comment-icons-text">Reply</span>
+              </div>
+            </div>
+          </div>
+        </div> 
+        </div>
+      </div>
+      <div id="playlist">
+
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+
+
+
+
+>>>>>>> Navbar

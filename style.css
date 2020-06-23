@@ -1,4 +1,5 @@
      
+<<<<<<< HEAD
 	/*Adding style to the container*/
 	
 
@@ -57,14 +58,468 @@
 	#userimg{
 	  width: 40px;
 	  height: 40px;
+=======
+	/*Adding style to the navbar container*/
+	
+    #navbar {
+	  top:0;
+	  position:fixed;
+	  width: 100%;
+	  height: 56px;
+	  padding: 0 16px 0 16px;
+	  justify-content: space-between;
+	  align-items: center;
+	  background-color: white;
+    }
+
+    .navstyle {
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
+	}
+	
+	/*Styling left side of the navigation bar*/
+
+    #left{
+	  margin-left: 5px;
+	  background-color: transparent;	 
+    }
+	
+    #menu{
+	  background-color: transparent;
+	  border: none;
+	  height: 29px;
+	  cursor: pointer;
+	}
+	
+	#menucont{
+	  height: 36px;
+	  margin-right: 15px;
+	 
+	}
+	
+    .menu-bars {
+      width: 20px;
+      height: 2px;
+      background-color: black;
+      margin: 5px 0;
+    }
+	
+	#logo{
+	  margin-left: 5px;
+	  cursor: pointer;
+	}
+	
+	
+	#logo .fa-youtube{
+	  height: 36px;
+	  width: 36px;
+	  color: red;
+	}
+	
+	#youtube{
+	  font-weight: 600;
+	  font-size:  28px;
+	  font-family: Arial;
+	  margin-left: 2px;
+	  letter-spacing: -5px;
+	}
+
+	
+	/*Styling center of navigation bar*/
+	
+    #center{
+	  height: 36px;
+	  padding: 0;
+	  align-items: center;
+      background-color: transparent;
+    }
+	
+	#searchcont{
+	  margin-left: 40px;
+	  border-color: #cccccc;
+	  border-radius: 2%;
+ 	  background-color: transparent;
+	  border-style: solid;
+	  border-width: 1px;
+	  position: relative;
+	}
+	
+	#searchbox{
+   	  max-width: 728px;
+	  height: 32px;
+	  width: 575px;
+	  background-color: transparent;
+	  	 border-right: 1px solid #cccccc ;
+		 border-top: 0;
+		 border-left: 0;
+		 border-bottom: 0;
+
+	}
+	
+	#searchbutton{
+	  width: 65px;
+	  height: 32px;
+	  cursor: pointer;
+	  background-color: #f8f8f8;
+	  border: 0;
+	}
+	
+	
+	/*Styling the right side of the navbar*/
+	
+	 #right{
+	  height: 36px;
+	  min-width: 225px;
+	  align-items: center;
+	  margin-right: 30px;
+    }
+	
+	#icons{
+      justify-content: space-between;
+	  width: 90%;
+	}
+	
+	#icons i,img{
+		cursor: pointer;
+	}
+
+	#userimg{
+	  width: 36px;
+	  height: 36px;
+>>>>>>> Navbar
 	  border-radius: 50%;
 	  margin-top: auto;
 	  margin-bottom:auto;
 	}
+<<<<<<< HEAD
 	
 	#searchbutton{
 	  width: 32px;
 	  height: 32px;
 	}
 
+=======
+
+	/*Styling the main content (columns)*/
+	#main{
+		margin-top: 56px;
+	}
+
+	#columns{
+	  width: 100%;
+	  margin: 0 auto;
+	  display: flex;
+	  flex-direction: row;
+	  max-width: 1754px;
+	}
+
+	/*Styling the user-column*/	
+	#user-column {
+		display: flex;
+		flex-direction: column;
+		width: 100%; 
+		height: 100%;
+		min-width: 450px;
+		max-width: 1280px;
+		padding-top: 24px;
+		padding-right: 24px;
+		margin-left: 24px;
+	}
+	/*Styling player division*/
+	#video-player{
+		min-height: 240px;
+		min-width: 426px;
+		max-height: 720px;
+		max-width: 1280px;
+		width: 100%;
+		height: 100%;
+	}
+
+	#player{
+	  display: inline-block;
+	  width: 100%;
+	  height: 100%;
+	  min-height: 240px;
+	  min-width: 426px;
+	  max-width: 1280px;
+	  max-height: 720px;
+	}
+
+	/*Styling info division*/
+	#info{
+	  padding-bottom: 13px;
+	  width: 100%;
+	}
+
+	/*Styling info-icons*/
+	#info-icons{
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
+	  justify-content: space-between;
+	  height: 40px;
+	}
+
+	/*Styling icons-left*/
+	#icons-left{
+	  
+	}
+
+	#icons-right{
+	  position: relative;
+	  top: 4px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-between;
+	}
+
+	#icons-right i{
+		cursor: pointer;
+	}
+
+	.button-container{
+		padding-right: 8px;
+		margin-left: 8px;
+	}
+
+	#dot-icon {
+		outline: none;
+		background: none;
+		border: none;
+		line-height: 0;
+		cursor: pointer;
+	}
+
+	/*Text style*/
+	.text-style{
+	  font-family: Arial;
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
+	  justify-content: space-between;
+	}
+
+	.user-style{
+		width: 20px;
+		height: 20px;
+		padding: 8px;
+	}
+	/*Styling the video title*/
+	#video-title{
+	  font-size: 1.5em; 
+	  font-weight: lighter;
+	}
+	/*Making the info division icons look gray*/
+	#info i{
+	  color: gray;
+	}
+
+	/*Giving a more specific gray to the add list icon in the info division*/
+	.add-list-color{
+		color: #d1cccc !important; 
+	} 
+
+	/*Styling description division*/
+	#video-description{
+	  display: flex;
+	  flex-direction: column;
+	  border-top-style: solid;
+	  border-top-width: 1px;
+	  border-top-color: black;
+	}
+
+	/*Styling channel information container*/
+	#channel-container{
+		display: flex;
+		background-color: transparent;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		align-items: center;
+		justify-content: space-between;
+	  
+	}
+
+	/*Styling owner profile container*/
+	#owner-profile{
+	  display: flex;
+	  flex-direction: row;
+	  background-color: transparent;
+	  align-items: center;
+	}
+
+	#owner-info{
+	  display:flex;
+	  flex-direction: column;
+	  background-color: transparent;
+	  margin-left: 8px;
+	}
+
+	/*Styling the name of the video owner*/
+	#owner-name{
+	  font-family: Arial;
+	  font-weight: bold;
+	  font-size: 19px;
+	}
+
+	/*Styling the number of subscribers text*/
+	#num-subscribers{
+	  font-family: Arial;
+	  font-weight: 300;
+	  font-size: 15px;
+	  color: rgb(59, 59, 59);
+	}
+
+    /*Styling the subscribe button*/
+	#subscribe-container{
+		display: block;
+	  width: 170px;
+	  height: 50px;
+	  background-color: red;
+	  padding: 25px 10px 5px 40px;
+	  }
+	  
+		  
+	  #subscribe-text{
+		font-family: arial;
+		font-size: 25px;
+		font-weight: 400;
+		color: white;
+		width: 160px;
+		height: 40px;
+	  }
+
+	/*Styling description text*/
+	#description-text{
+	  margin-left: 70px;
+	  font-size: 18px;
+	}
+
+	/*Styling show less*/
+	#show-less{
+	  display: inline-block;
+	  font-size: 1rem;
+	  font-weight: 700;
+	  letter-spacing: 0.007px;
+	  text-transform: uppercase;
+	  color: dimgray;
+	  margin-left: 70px;
+	  margin-bottom: 8px;
+	}
+
+
+	/*Styling comments division*/
+	#comments{
+      display: inline-block;
+	  margin-left: 24px;
+	  margin-right: 24px;
+	  width: 618.667px;
+	  height: 100%;
+	  border-top-style: solid;
+	  border-top-width: 1px;
+	  border-top-color: black;
+	}
+	
+	/*///////////////STYLING THE COMMENT CONTAINERS////////////*/
+	.user-container{
+	  display: flex;
+	  flex-direction: row;
+	  margin-top: 20px;
+	}
+
+	/*Styling user images of the comment division*/
+    .user-img-background{
+		display: inline-flex;
+		width: 40px;
+		height: 40px;
+		align-items: center;
+		justify-content: center;
+		border-radius: 100%;
+	  }
+    /*user colors*/
+	  #color-a{
+		background-color: red;
+		}
+			  
+	  .user-text{
+		font-family: arial;
+		font-size: 25px;
+		font-weight: 400;
+		color: white;
+		}
+
+	.comments-container{
+	  display: flex;
+	  flex-direction: column;
+	  margin-left: 8px;
+	}
+	.name-and-time{
+	  display: inline-flex;
+	  align-items: center;
+	  padding-bottom: 12px;
+	}
+
+	.comment-icons{
+	  display: inline-flex;
+	  width: 150px;
+	  height: 19px;
+	  align-items: center;
+	  justify-content: space-between;
+	}
+
+	.user-name{
+	  font-family: Arial;
+	  font-size: 14px;
+	  font-weight: 700;
+	}
+
+	.time{
+	  font-family: Arial;
+	  font-size: 12px;
+	  font-weight: 600;
+	  margin-left: 8px;
+	  color: dimgray;
+	}
+
+	.comment{
+	  font-family: Arial;
+	  font-size: 16px;
+	  margin-block-start: 0;
+	}
+	
+	.comment-icons i{
+	  color: rgb(59, 59, 59);
+	}
+	.comment-icons-text{
+	  font-family: Arial;
+	  font-size: 16px;
+	  font-weight: 670;
+	  color: rgb(59, 59, 59);
+	}
+
+	#reply{
+	  margin-left: 18px;
+	}
+	
+	/*Styling the List column*/
+	#playlist{
+	  width: 25%;
+	  height: 1000px;
+	  background-color: green;
+	  padding-top: 24px;
+	  padding-right: 24px;
+	  min-width: 426px;
+	  max-width: 226px;
+	}
+
+	/*Styling the main block (body)*/
+	body {
+	  margin:0;
+	  background-color: #f9f9f9;
+	  width: 100%;
+	  height: 1000px;
+	}
+
+
+>>>>>>> Navbar
 
