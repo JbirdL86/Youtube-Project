@@ -35,9 +35,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Alfredo Huemac**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/Huemac-Alfredo)
+- Twitter: [@twitterhandle](https://twitter.com/AlfredoHuemac)
+- Linkedin: [linkedin](https://www.linkedin.com/in/huemac-alfredo-c%C3%B3rdova-torres-b28986136/)
 
 👤 **Juan Gonzalez**
 
