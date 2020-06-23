@@ -197,21 +197,21 @@
 	  justify-content: space-between;
 	}
 
-	#icons-right i{
-		cursor: pointer;
+	#icons-right div{
+	  cursor: pointer;
 	}
 
 	.button-container{
-		padding-right: 8px;
-		margin-left: 8px;
+	  padding-right: 8px;
+	  margin-left: 8px;
 	}
 
 	#dot-icon {
-		outline: none;
-		background: none;
-		border: none;
-		line-height: 0;
-		cursor: pointer;
+	  outline: none;
+	  background: none;
+	  border: none;
+	  line-height: 0;
+	  cursor: pointer;
 	}
 
 	/*Text style*/
@@ -224,9 +224,9 @@
 	}
 
 	.user-style{
-		width: 20px;
-		height: 20px;
-		padding: 8px;
+	  width: 20px;
+	  height: 20px;
+	  padding: 8px;
 	}
 
 	/*Styling the video title*/
@@ -256,13 +256,12 @@
 
 	/*Styling channel information container*/
 	#channel-container{
-		display: flex;
-		background-color: transparent;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		align-items: center;
-		justify-content: space-between;
-	  
+	  display: flex;
+	  background-color: transparent;
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	  align-items: center;
+	  justify-content: space-between;
 	}
 
 	/*Styling owner profile container*/
@@ -271,6 +270,7 @@
 	  flex-direction: row;
 	  background-color: transparent;
 	  align-items: center;
+	  cursor: pointer;
 	}
 
 	#owner-info{
@@ -278,6 +278,7 @@
 	  flex-direction: column;
 	  background-color: transparent;
 	  margin-left: 8px;
+	  cursor: pointer;
 	}
 
 	/*Styling the name of the video owner*/
@@ -299,6 +300,7 @@
 	#subscribe-container{
 	  display: flex;
 	  background-color: #c00;
+	  cursor: pointer;
     }
 	  
 		  
@@ -349,24 +351,25 @@
 
 	/*Styling user images of the comment division*/
     .user-img-background{
-		display: inline-flex;
-		width: 40px;
-		height: 40px;
-		align-items: center;
-		justify-content: center;
-		border-radius: 100%;
-	  }
+	  display: inline-flex;
+	  width: 40px;
+	  height: 40px;
+	  align-items: center;
+	  justify-content: center;
+	  border-radius: 100%;
+	}
 
     /*user colors*/
-	  #color-a{
-		background-color: red;
+	#color-a{
+	  background-color: red;
+	  cursor: pointer;
 	}
 			  
 	.user-text{
-		font-family: arial;
-		font-size: 25px;
-		font-weight: 400;
-		color: white;
+	  font-family: arial;
+	  font-size: 25px;
+	  font-weight: 400;
+	  color: white;
 	}
 
 	.comments-container{
@@ -412,6 +415,7 @@
 	
 	.comment-icons i{
 	  color: rgb(59, 59, 59);
+	  cursor: pointer;
 	}
 
 	.comment-icons-text{
@@ -423,29 +427,19 @@
 
 	#reply{
 	  margin-left: 18px;
+	  cursor: pointer;
 	}
 	
-	/*Styling the List column*/
-	#playlist{
-	  width: 25%;
-	  height: 1000px;
-	  /*background-color: green;*/
-	  padding-top: 24px;
-	  padding-right: 24px;
-	  min-width: 426px;
-	  max-width: 226px;
-	}
-
 	/*/////////////////Styling the List column////////////////////*/
 	#playlist{
 	  width: 25%;
-	  height: 100%;
+	  height: 1000px;
 	  padding-top: 24px;
 	  padding-right: 24px;
 	  min-width: 426px;
 	  max-width: 226px;
 	}
-   
+ 
 	#head{
 	  display: flex;
 	  margin-bottom: 12px;
@@ -473,6 +467,7 @@
 	#toggleicon{
       background-color: transparent;
 	  color: #e2e2e2;
+	  cursor: pointer;
 	}
 
    /*/////Styling the comming up video/////*/
