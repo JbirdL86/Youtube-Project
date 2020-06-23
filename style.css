@@ -1,64 +1,4 @@
      
-<<<<<<< HEAD
-	/*Adding style to the container*/
-	
-
-	
-	#navbar{
-	  width: 100%;
-	  
-    }
-	
-	.navstyle{
-	  display: inline-block;
-	  margin-top: auto;
-	  margin-bottom: auto;
-	}
-
-	#container{
-		width: 100%;
-	}
-	
-	#left{
-	  width: 20em;
-    }
-	
-	#menu{
-      width: 30px;
-	  height: 30px;
-	}
-	
-	#logo{
-	}
-	
-    .fa-youtube {
-	  color: red;  
-	}
-	
-	#searchbox{
-	margin-left: auto;
-	margin-right: auto;
-	width: 80em;
-	height: 32px;
-	}
-		
-    
-	#center{
-      background-color: transparent;
-	  width: 80em;
-	  margin-left: auto;
-	  margin-right: auto;
-    }
-
-    #right{
-      background-color: transparent;
-	  width: 12em;
-    }
-	
-	#userimg{
-	  width: 40px;
-	  height: 40px;
-=======
 	/*Adding style to the navbar container*/
 	
     #navbar {
@@ -187,19 +127,10 @@
 	#userimg{
 	  width: 36px;
 	  height: 36px;
->>>>>>> Navbar
 	  border-radius: 50%;
 	  margin-top: auto;
 	  margin-bottom:auto;
 	}
-<<<<<<< HEAD
-	
-	#searchbutton{
-	  width: 32px;
-	  height: 32px;
-	}
-
-=======
 
 	/*Styling the main content (columns)*/
 	#main{
@@ -259,11 +190,6 @@
 	  align-items: center;
 	  justify-content: space-between;
 	  height: 40px;
-	}
-
-	/*Styling icons-left*/
-	#icons-left{
-	  
 	}
 
 	#icons-right{
@@ -521,5 +447,4 @@
 	}
 
 
->>>>>>> Navbar
 
